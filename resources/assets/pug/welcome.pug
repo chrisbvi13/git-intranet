@@ -1,0 +1,62 @@
+extends templates/template.pug
+
+block block/bannerbienvenida
+	.grid-container.full
+		.cell
+			img(src="images/welcome.jpg")
+
+block block/botonera
+	.grid-container
+		.callout.botonera__callout.small
+			.grid-x
+				.cell.shrink
+					h2.botonera__callout--title Servicios WEB
+						.icon-globe
+		.callout.large
+			.grid-x
+				.cell
+					.grid-x.align-spaced
+						.grid-y.align-middle.small-4.text-center
+							//-h6.botonera__title Portal de nomina
+							a.button.success.large.botonera__btn(href="http://10.99.1.82/SelfServiceKTCF/frmLogin.aspx" target="_blank") Portal de nomina
+						.grid-y.align-middle.small-4.text-center
+							//-h6.botonera__title Portal de servicios #[span HeOn]
+							a.button.success.large.botonera__btn(href="http://heonweb/intranet/portal/" target="_blank") Portal de servicios HeOn
+						.grid-y.align-middle.small-4.text-center
+							//-h6.botonera__title Mesa de servicios HeOn
+							a.button.success.large.botonera__btn(href="http://mesadeservicio.heon.com.co/usdk/" target="_blank") Mesa de servicios HeOn
+				.cell.m-top
+					.grid-x.align-center
+						.grid-y.align-middle.small-4.text-center
+							//-h6.botonera__title Infopoint
+							a.button.success.large.botonera__btn(href="http://heoninfopath/wInfopMasterCafeSalud/Menu/frmPrincipal.aspx" target="_blank") Infopoint
+						.grid-y.align-middle.small-4.text-center
+							//-h6.botonera__title Gestión documental 
+							a.button.success.large.botonera__btn(href="http://heonweb/SIGED/default.asp" target="_blank") Gestión documental
+
+block block/comunicado_presidencia
+	.grid-container
+		.callout.small
+			.grid-y
+				.cell
+					h2.botonera__callout--title.small Comunicado de presidencia Nro. 006
+					
+				p.comunicado__paragraph Mayo 18 del 2017
+
+					p.comunicado__paragraph--content
+						| Buenos días apreciados colaboradores.
+
+					p.comunicado__paragraph--content
+						| Según lo establecido desde Saludcoop en liquidación ayer se venció el plazo para que los interesados en adquirir a Cafesalud presentaran sus propuestas económicas y técnicas.					
+					p.comunicado__paragraph--content
+						| Al cierre la liquidadora recibió 2 propuestas, una del Grupo Sanitas, que tiene plataforma en Colombia y asegura a cerca de 1 millón de colombianos, y el consorcio Prestasalud (Hospitales y Clínicas Prestadoras de Salud de Colombia), que presentó tres ofertas.				
+					p.comunicado__paragraph--content
+						| El paso siguiente es estudiar las ofertas y valorarlas con base en el avaluó definido por la liquidación; en caso de que el monto ofrecido no supere o sea igual al básico, iniciará la puja entre los dos oferentes para quedarse con la EPS y el complejo de IPS de Esimed.			
+					p.comunicado__paragraph--content
+						| Una vez realizado este proceso por el equipo de expertos, la liquidadora de Saludcoop, Ángela María Echeverry, tendrá plazo máximo hasta el jueves 25 de mayo de 2017 para socializar el nombre de los nuevos dueños. Tras este anuncio internamente trabajaremos en un proyecto de empalme que busque fortalecer aspectos tenidos en cuenta durante la venta como el bienestar de los usuarios y los colaboradores.		
+					p.comunicado__paragraph--content
+						| Pronto comenzaremos a vivir una gran transformación, en la que todos somos fundamentales, te invitamos a sumarte, ser positivo y estar preparado para adaptarte a los cambios que se avecinan. Contamos con el compromiso de todos para lograr los propósitos fundamentales de la transición.
+					p.comunicado__paragraph--content
+						| Cordialmente, Luis Guillermo Vélez Atehortúa - Presidente CAFESALUD EPS
+						
+

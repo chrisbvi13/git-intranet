@@ -1,0 +1,93 @@
+extends ../templates/template_generic.pug
+
+block block/bannerinfo
+	.grid-container.full
+		.cell
+			img(src="images/banner_nav/m1-3.jpg")
+
+block block/content
+	.grid-container
+		.callout.small
+			.grid-x
+				.cell
+					p.comunicado__paragraph Logotipo
+					p.comunicado__paragraph--content La esencia de la nueva imagen corporativa de Cafesalud se destaca por ser joven, moderna e innovadora, que entiende la salud desde otras perspectivas: educa, empodera y especialmente genera un estilo de vida saludable.
+
+					p.comunicado__paragraph--content Los elementos que conforman el logo de Cafesalud representan su esencia: El Símbolo del café está compuesto de dos mitades que se complementan íntimamente, con movimiento que evoca vitalidad, con una gráfica vanguardista en la que se destaca una “S” de “Salud” y “Servicio” que hace que la marca se apropie de estos conceptos.
+
+					p.comunicado__paragraph--content Sus elementos orgánicos están inspirados en su interés por humanizar al estar íntimamente ligados con sus usuarios.
+
+					p.comunicado__paragraph--content Este símbolo pretende atraer, impactar, enamorar con sus formas y se complementa con una tipografía desarrollada especialmente para la marca que evoca dinamismo, modernidad y amabilidad.
+				.cell.m-top
+					.grid-x.align-center.align-middle
+						.cell.small-4
+							img(src="images/logo1.jpg")
+						.cell.small-3.small-offset-1
+							img(src="images/logo2.jpg")
+			.callout.primary.m-top
+				p.comunicado__paragraph--content Si necesitas implementar el logo en algún material, puedes solicitar el manual de identidad corporativa y los archivos fuentes del logotipo al Departamento de Comunicaciones Corporativas, escribiendo al correo #[span.spanresalt comunicaciones@cafesalud.com.co]
+
+	.grid-container
+		.callout.small
+			ul.tabs(data-tabs id="collapsing-tabs")
+				li.tabs-title.is-active: a(href="#p1") Hoja membrete
+				li.tabs-title: a(href="#p2") Firma correo electronico
+				li.tabs-title: a(href="#p3") Plantilla para presentaciones
+
+			.tabs-content(data-tabs-content="collapsing-tabs")
+				#p1.tabs-panel.is-active
+					.grid-x
+						.cell
+							p.comunicado__paragraph--content
+								| Esta plantilla de Word, te permitirá usar la hoja membrete, para cualquier tipo de comunicación interna o externa, acorde con nuestra imagen corporativa.
+						.cell.m-top
+							.grid-x.align-center.align-middle
+								.cell.small-4
+									img(src="images/membrete.png")
+								.cell.small-4
+									.grid-x.align-center
+										a.button.warning.botonera__btn(href="images/docs/hoja-membrete.docx" target="_blank") Descargar plantilla membrete
+										a.button.warning.botonera__btn(href="images/docs/intructivo-membrete.pdf" target="_blank") Instructivo uso membrete
+
+				#p2.tabs-panel
+					.grid-x
+						.cell
+							p.comunicado__paragraph--content
+								| La firma de nuestros correos electrónicos es un recurso de comunicación que nos ayuda a mantener la unidad de nuestra imagen, constituye una muestra de nuestro sello personal en la organización y suministra nuestros datos de contacto, por ello es necesario estandarizar el manejo y la información que registramos en ella. 
+						.cell.m-top
+							.grid-x.align-center.align-middle
+								.cell.small-4
+									img(src="images/firma.jpg")
+								.cell.small-4
+									.grid-x.align-center
+										a.button.warning.botonera__btn(href="https://sites.google.com/a/cafesalud.com.co/sitio-firmas/" target="_blank") Instructivo firma digital
+					
+
+
+
+
+				#p3.tabs-panel
+					.grid-x
+						.cell
+							p.comunicado__paragraph--content
+								| Esta plantilla de Power Point, te permitirá crear tus presentaciones acorde con la imagen renovada de la organización, con mayor impacto y más innovador, alineado a los nuevos estándares gráficos de la imagen corporativa.
+						.cell.m-top
+							.grid-x.align-center.align-middle
+								.cell.small-6
+									img(src="images/presentacionppt.png")
+								.cell.small-4
+									.grid-x.align-center
+										a.button.warning.botonera__btn(href="images/docs/plantilla-presentaciones-cafesalud.pptx" target="_blank") Descargar presentación PPT
+
+	.grid-container
+		.callout.small
+			.grid-x
+				.cell
+					p.comunicado__paragraph Ícono para celulares corporativos
+
+				.cell.m-top
+					.grid-x.align-center.align-middle
+						.cell.small-3
+							p.comunicado__paragraph--content Si tienes celular corporativo o participas de algún grupo de WhatsApp empresarial, usa esta imagen como ícono. Haz clic derecho sobre la imagen para bajarla a tu computador.
+						.cell.small-4
+							img(src="images/whatsApp.png")

@@ -1,0 +1,34 @@
+.main-menucf{
+    background: #fff;
+    box-shadow: 0px 1px 3px #00000030;
+    font-family: $nunito !important;
+
+    &__bg{
+        background: $morado;
+    }
+
+    &__link{
+        color: #fff;
+    	font-family: $nunito;
+
+    	
+    	&:hover{
+			color: #fff;;
+    	}
+    }
+} 
+
+.dropdown.menu .is-active > a{
+	color: #fff;
+}
+
+
+
+///////////////////// Row Icons /////////////////////
+.is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a::after{
+    border-color: transparent transparent transparent #fff;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after{
+    border-color: #fff transparent transparent !important;
+}

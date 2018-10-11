@@ -1,0 +1,91 @@
+.botonera{
+
+	&__btn{
+    background-color: #8a8888d4 !important;
+	border-radius: 8px;
+	box-shadow: 0px 2.3px 0px #5e5e5ed4;
+    color: white !important;
+	width: 80%;
+
+	&:hover{
+		background-color: #8a8888f7 !important;
+	}
+
+}
+
+	&__title{
+	font-family: $nunito-extlig;
+	font-size: 1.7rem;
+}
+
+	&__callout{
+
+	    border-bottom: none;
+		margin-bottom: 0;
+
+		&--title{
+			color: #8e8f91;
+			font-family: $nunito;
+			margin-bottom: inherit;
+			position: relative;
+		}
+	}
+}
+
+
+
+.icon-globe{
+    font-size: 1.3em;
+	position: absolute;
+    right: -55px;
+    top: 0;
+}
+
+
+
+.m-left{
+	margin-left: 1em !important;
+}
+
+.m-top{
+	margin-top: 1em;
+}
+
+.m-negative{
+	margin: .8em 0 0 -12px !important;	
+}
+
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////// ESTILOS COMUNICADO PRESIDENCIA ///////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.comunicado__paragraph{
+    font-size: 1.1em;
+    margin: 0 0 0 3px;
+    color: #777777b0;
+
+    &--content{
+		color: #000;
+	    font-family: "Nunito-ExtraLight" !important;
+	    font-size: 1.1em;
+        line-height: 1.3em;
+	    margin: .5em 0 0 3px;
+    }
+
+}
+
+
+.vineta::before{
+    background: $morado;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    height: 5px;
+    margin-bottom: .22em;
+    margin-right: .4em;
+    width: 5px;
+}
+
+

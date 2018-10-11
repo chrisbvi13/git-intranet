@@ -1,0 +1,59 @@
+extends ../templates/template_generic.pug
+
+block block/bannerinfo
+	.grid-container.full
+		.cell
+			img(src="images/banner_nav/m2-9.jpg")
+
+block block/content
+	.grid-container
+		.callout.small
+			.grid-x
+				//-TAB ITEM's
+				.cell.small-3
+					ul#gallery.vertical.tabs(data-tabs)
+						li.tabs-title.is-active: a(href="#p1", aria-selected="true") Dia de las madres
+						li.tabs-title: a(href="#p2") Dia del padre :'D
+
+				//-TAB Content
+				.cell.small-9
+					.tabs-content(data-tabs-content="gallery")
+						#p1.tabs-panel.is-active
+							.container
+								#galley
+									ul.pictures
+										li: img(src="images/gallery/dia_madre/1.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/2.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/3.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/4.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/5.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/6.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/7.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/8.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/9.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/10.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/11.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/12.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/13.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/14.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/15.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/16.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/17.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/18.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/19.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/20.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/21.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/22.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/23.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/24.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/25.png" alt=";D")
+										li: img(src="images/gallery/dia_madre/26.png" alt=";D")
+
+						#p2.tabs-panel
+							.container
+								#galley
+									.pictures
+										li: img(src="https://cdn.pixabay.com/photo/2018/05/07/10/48/husky-3380548_960_720.jpg" alt=";D")
+										li: img(src="https://cdn.pixabay.com/photo/2018/05/07/10/48/husky-3380548_960_720.jpg" alt=";D")
+										li: img(src="https://cdn.pixabay.com/photo/2018/05/07/10/48/husky-3380548_960_720.jpg" alt=";D")
+

@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "fuentes-chris";
+  src:url("../icons/fuentes-chris.eot");
+  src:url("../icons/fuentes-chris.eot?#iefix") format("embedded-opentype"),
+    url("../icons/fuentes-chris.woff") format("woff"),
+    url("../icons/fuentes-chris.ttf") format("truetype"),
+    url("../icons/fuentes-chris.svg#fuentes-chris") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "fuentes-chris" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "fuentes-chris" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-youtube:before {
+  content: "\65";
+}
+.icon-twitter:before {
+  color: #2daae2;
+  content: "\61";
+}
+.icon-facebook:before {
+  color: #4867aa;
+  content: "\62";
+}
+.icon-download:before {
+  content: "\63";
+}
+
+.icon-downloadpay:before {
+  content: "\63";
+}
+.icon-phone:before {
+  content: "\64";
+}
+
+.icon-youtube-alt:before {
+  color: #ff0000;
+  content: "\66";
+}
+
+.icon-briefcase:before {
+  content: "\67";
+}
+.icon-globe:before {
+  content: "\68";
+}
+.icon-files-o:before {
+  content: "\69";
+}
+.icon-commenting-o:before {
+  content: "\6a";
+}
+.icon-calendar:before {
+  content: "\6b";
+}
+.icon-users:before {
+  content: "\6c";
+}
+.icon-file-text-o:before {
+  content: "\6d";
+}
+.icon-bookmark-o:before {
+  content: "\6e";
+}
+
+
+.icon-certificate-file:before {
+  content: "\6f";
+  font-size: 1.5em;
+}
+.icon-coins:before {
+  content: "\70";
+  font-size: 1.5em;
+}
+.icon-check-circle:before {
+  content: "\71";
+  font-size: 1.5em;
+}
+.icon-check-clipboard-1:before {
+  content: "\72";
+  font-size: 1.5em;
+}
+.icon-wallet-money:before {
+  content: "\73";
+  font-size: 1.5em;
+}
+.icon-align-left:before {
+  content: "\74";
+  font-size: 1.2em;
+  margin-top: -.15em !important;
+}
+.icon-clipboard:before {
+  content: "\75";
+  font-size: 1.5em;
+}
+.icon-files:before {
+  content: "\76";
+  font-size: 1.5em;
+
+}
+.icon-banknote:before {
+  content: "\77";
+  font-size: 1.5em;
+}
+.icon-link:before {
+  content: "\78";
+  font-size: 1.5em;
+}
+
+.icon-link-btn:before {
+  content: "\78";
+  font-size: 1.3em;
+}
+
+@font-face{ 
+  font-family: 'nunito';
+  src: url('../icons/Nunito-Bold.ttf');
+  src: url('../icons/Nunito-Bold.ttf') format('truetype');
+}
+
+
+@font-face{ 
+  font-family: 'Nunito-ExtraBoldItalic';
+  src: url('../icons/Nunito-ExtraBoldItalic.ttf');
+  src: url('../icons/Nunito-ExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face{ 
+  font-family: 'Nunito-ExtraLight';
+  src: url('../icons/Nunito-ExtraLight.ttf');
+  src: url('../icons/Nunito-ExtraLight.ttf') format('truetype');
+}
+
+@font-face{ 
+  font-family: 'Nunito-Regular';
+  src: url('../icons/Nunito-Regular.ttf');
+  src: url('../icons/Nunito-Regular.ttf') format('truetype');
+}

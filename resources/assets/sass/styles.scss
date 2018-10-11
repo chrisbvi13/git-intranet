@@ -1,0 +1,46 @@
+$cssCore: false;
+$cssHelpers: true;
+$devMode: false;
+body{
+	background: #8e8f9133 !important;
+}
+
+
+//colores
+ 
+$plata:    rgb(142,144,144);
+$cereza:   rgb(214,0,87);
+$turquesa: rgb(0,173,187);
+$marron:   rgb(106,27,50);
+$plata: #8e9090;
+$morado: #662e6b;
+$azul: #00adbb;
+$verde: #77bc1f;
+$rosa: #d60057;
+$amarillo: #f5c400;
+
+$grisIcon: #404040d9; 
+$rosaIcon: #d60057;
+//z-index
+  
+$z1: 10;
+$z2: 100;
+$z3: 1000;
+$z4: 10000;
+
+//fuentes
+
+$nunito: 'nunito' !important;
+$nunito-reg: 'Nunito-Regular' !important;
+$nunito-extlig: 'Nunito-ExtraLight' !important;
+$fondop:#ffffffd4;
+// *
+
+
+
+@import '../../../node_modules/foundation-sites/assets/foundation';
+@import 'assets/menu';
+@import 'assets/footer';
+@import 'assets/icons';
+@import 'assets/botonera';
+@import 'assets/all';
